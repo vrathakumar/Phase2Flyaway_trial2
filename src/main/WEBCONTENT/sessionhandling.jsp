@@ -45,7 +45,7 @@
 	} else {
 		//pageContext.forward("login.jsp");
 		session.setAttribute("errorMessage", "Invalid Username or Password!");
-		//response.sendRedirect("login.jsp");
+		response.sendRedirect("login.jsp");
 	}
 	%>
 </body>
